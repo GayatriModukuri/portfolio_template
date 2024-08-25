@@ -1,0 +1,67 @@
+body{
+    background-image: url("bg2.jpeg");
+    background-size: cover;
+}
+.project{
+    margin-top: 10px;
+    margin-left: 40px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.pro1{
+    border:2px solid black;
+    height:300px;
+    width:300px;
+    margin-top: 40px;
+    padding:10px;
+    color:black;
+    text-align: center;
+    background-color:bisque;
+}
+.pro2{
+    border:2px solid black;
+    height:300px;
+    width:300px;
+    margin-top: 40px;
+    padding:10px;
+    text-align: center;
+    color:black;
+    background-color:bisque;
+}
+.p1img{
+    height:200px;
+    background-size: cover;
+}
+.p2img{
+    height:200px;
+    background-size: cover;
+}
+#proj{
+    margin-top: 100px;
+    margin-left: 100px;
+    color:rgb(34, 160, 160);
+}
+.text{
+    visibility: hidden;
+    opacity:0;
+    color:white;
+    transition: visibility 0s,opacity 0.5s linear;
+}
+.p1img:hover .text{
+    visibility:visible;
+    opacity:1;
+    backdrop-filter: blur(10px);
+    height:200px;
+}
+.text2{
+    visibility: hidden;
+    opacity:0;
+    color:white;
+    transition: visibility 0s,opacity 0.5s linear;
+}
+.p2img:hover .text2{
+    visibility:visible;
+    opacity:1;
+    backdrop-filter: blur(10px);
+    height:200px;
+}

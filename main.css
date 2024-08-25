@@ -1,0 +1,46 @@
+body{
+    background-image: url("bg2.jpeg");
+    background-size: cover;
+}
+.pic{
+    height:300px;
+    float:right;
+    width:300px;
+    box-shadow:5px 5px 20px 15px aquamarine;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    width:60%;
+    height:50%;
+    left:20%;
+    top:30%;
+    color:white;
+}
+b{
+    font-family:cursive;
+    font-weight: 800;
+    height:200px;
+}
+h4{
+    font-family: Arial;
+}
+.headings{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.social{
+    color:white;
+    margin-left: 270px;
+    margin-top: 500px;
+    font-size: larger;
+}
+.social:hover{
+    filter:drop-shadow(5px 5px 20px rgb(237, 247, 250));
+}
